@@ -1,0 +1,12 @@
+#include<iostream>
+#include<math.h>
+
+using namespace std;
+
+int main() {
+	double T, l, g = 9.8075; 
+	cin >> l;
+	T = 2 * 3,14 * sqrt(l / g); 
+	cout << T;
+	return 0;
+}
