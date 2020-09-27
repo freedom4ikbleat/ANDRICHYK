@@ -1,0 +1,17 @@
+using namespace std;
+
+int main()
+{
+	int x = -7, y = 4, z = 5;
+	if (x + y + z > 1)
+	{
+		x = y + z;
+		cout << x;
+	}
+	else
+	{
+		y = x + 5;
+		cout << y;
+	}
+	cin >> z;
+}
