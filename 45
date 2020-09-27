@@ -1,0 +1,33 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+	int a = 11, b = 9, c = 12, d = 5;
+	if (a <= b && b <= c && c <= d)
+	{
+		a = c;
+		b = c;
+		d = c;
+		cout << a << endl;
+		cout << b << endl;
+		cout << c << endl;
+		cout << d << endl;
+	}
+	if (a > b > c > d)
+	{
+		cout << a << endl;
+		cout << b << endl;
+		cout << c << endl;
+		cout << d << endl;
+	}
+	else
+	{
+		cout << a * a << endl;
+		cout << b * b << endl;
+		cout << c * c << endl;
+		cout << d * d << endl;
+	}
+	cin >> a;
+}
