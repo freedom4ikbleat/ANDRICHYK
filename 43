@@ -1,0 +1,25 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+	int a = -11, b = -8, c = 6;
+	if (a <= 0)
+	{
+		cout << pow(a, 2) << endl;
+	}
+	if (b <= 0)
+	{
+		cout << pow(b, 2) << endl;
+	}
+	if (c <= 0)
+	{
+		cout << pow(c, 2) << endl;
+	}
+	else
+	{
+		cout << "Chislo polozhitelnoe ili ravno 0" << endl;
+	}
+	cin >> a;
+}
