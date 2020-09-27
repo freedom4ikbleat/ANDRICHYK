@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int foo(int a = 9, int b = 15) {
+	
+	int max=0;
+		
+	if (a < b)
+	{
+		cout <<b;
+	}
+	else
+	{
+		cout <<a;
+	}
+	return 0;
+}
+int main()
+{
+	
+	foo();
+}
