@@ -1,0 +1,25 @@
+
+int foo(int a = 9, int b = 15, int c=18) {
+	
+	int max=0;
+		
+	if (a<c&&b<c)
+	{
+		cout <<c;
+	}
+	if (c < a && b < a)
+	{
+		cout << a;
+	}
+	if (a < c && c < b)
+	{
+		cout << b;
+	}
+	
+	return 0;
+}
+int main()
+{
+	
+	foo();
+}
