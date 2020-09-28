@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int k = 5, l = 5;
+    if (k != l)
+    {
+        cout << k << l;
+    }
+    else
+    {
+        k = 0;
+        l = 0;
+        cout << k << endl;
+        cout << l << endl;
+    }
+    cin >> k;
+}
